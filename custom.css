@@ -1,0 +1,44 @@
+/*
+	some customisations for kickstarter css
+*/
+
+body.custom-background{ 
+	background-color: #0B0B0B; 
+	background-image: url('/static/images/twd_1_bkgd.jpg'); 
+	background-repeat: no-repeat; 
+	background-position: top center; 
+	background-attachment: fixed; 
+}
+
+*[class*="col_"].visible{
+	background: url("/static/images/pageBkg.jpg") repeat left bottom transparent;
+	border:1px dotted #111;padding:10px;
+}
+
+h1{font-size: 34px; color:#cc9933; font-family: 'helvetica_neuerboldcond';text-transform: uppercase;line-height: 34px;}
+h2{font-size: 18px; color:#cccccc; font-family: 'helvetica_neuerboldcond';text-transform: uppercase; }
+
+input[type="text"]:focus,
+textarea:focus,
+button:focus,
+a.button:focus,
+select:focus,
+input[type="file"]:focus,
+input[type="password"]:focus{
+	-webkit-box-shadow: 0 0 7px #806020;
+	-moz-box-shadow   : 0 0 7px #806020;
+	box-shadow        : 0 0 7px #806020;
+	border: 1px solid #403010;
+	outline: none;
+}
+
+ul, ol{
+padding:10px;
+}
+
+li{
+padding:5px 0;
+}
+
+p.centered{text-align: 'center';}
+h1.centered{text-align: 'center';}
