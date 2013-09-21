@@ -15,7 +15,7 @@ body.custom-background{
 	border:1px dotted #111;padding:10px;
 }
 
-h1{font-size: 34px; color:#cc9933; font-family: 'helvetica_neuerboldcond';text-transform: uppercase;line-height: 34px;}
+/*h1{font-size: 34px; color:#cc9933; font-family: 'helvetica_neuerboldcond';text-transform: uppercase;line-height: 34px;}*/
 h2{font-size: 18px; color:#cccccc; font-family: 'helvetica_neuerboldcond';text-transform: uppercase; }
 
 input[type="text"]:focus,
@@ -40,5 +40,7 @@ li{
 padding:5px 0;
 }
 
-p.centered{text-align: 'center';}
-h1.centered{text-align: 'center';}
+
+p.centered{text-align: center; display: block; margin-left:auto; margin-right:auto;}
+p.p404{text-align: center; display: block; font-size: 34px; color:#cc9933; font-family: 'helvetica_neuerboldcond'; text-transform: uppercase; line-height: 34px; margin-left:auto; margin-right:auto;}
+IMG.centered {display: block; text-align:center; margin-left:auto; margin-right:auto;}
