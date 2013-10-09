@@ -32,11 +32,11 @@ input[type="password"]:focus{
 	outline: none;
 }
 
-ul, ol{
+ul.choice, ol.choice{
 padding:10px;
 }
 
-li{
+li.choice{
 padding:5px 0;
 }
 
